@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+}
+
+/* Pseudo-elemento para o efeito de desfoque */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('images/fundo-cardapio.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Faz a imagem de fundo se mover com a rolagem */
+    filter: blur(10px); /* Ajuste o valor do blur conforme desejado */
+    z-index: -1; /* Mantém o efeito atrás do conteúdo */
+}
+
+.container{
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: "Playfair Display", serif;
+}
+
+.nome img{
+    width: 200px;
+    margin-right: 160px;
+    border-radius: 20px;
+    background: rgba(223, 0, 0, 0.658);
+}
+.menu{
+    margin-left: 500px;
+    border-radius: 20px;
+    background: rgba(223, 0, 0, 0.658);
+    padding: 10px;
+}
+.menu nav a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin: 5px;
+}
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #fd2922, #fc2929);
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transition: 0.5s;
+}
+.menu nav a:hover::after{
+    width: 30px;
+}
+.titulo{
+    text-align: center;
+    color: rgb(255, 238, 0);
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+.cardapio{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.pt1{
+    text-decoration: none;
+    margin: 20px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.596);
+    border: 2px #ff0000 solid;
+    color: rgb(255, 0, 0);
+    box-shadow: 0 0 25px;
+    border-radius: 20px;
+}
+.pt1 a{
+    text-decoration: none;
+    color: white
+}
+.pt2{
+    margin: 20px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.596);
+    border: 2px red solid;
+    color: rgb(255, 0, 0);
+    box-shadow: 0 0 25px;
+    border-radius: 20px;
+    
+}
+.pt2 a{
+    text-decoration: none;
+    color: white
+}
+.pt3{
+    margin: 20px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.596);
+    border: 2px red solid;
+    color: rgb(255, 0, 0);
+    box-shadow: 0 0 25px;
+    border-radius: 20px;
+}
+.pt3 a{
+    text-decoration: none;
+    color: white
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: yellow;
+    color: #fc2929;
+}
+
+
+

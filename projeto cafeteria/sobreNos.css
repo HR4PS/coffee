@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-family: "Playfair Display", serif;
+} 
+
+.container{
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: "Playfair Display", serif;
+}
+
+.nome img{
+    margin-right: 160px;
+    width: 200px;
+    border-radius: 20px;
+    background: rgba(138, 55, 0, 0.658);
+}
+.menu{
+    margin-left: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgba(138, 55, 0, 0.658);
+}
+.menu nav a{
+    text-decoration: none;
+    color: rgb(180, 81, 0);
+    position: relative;
+    margin: 6px
+}
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #FF2500, #FF7100);
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transition: 0.5s;
+}
+.menu nav a:hover::after{
+    width: 30px;
+}
+.menu nav a i{
+    color: white
+}
+
+
+.box{
+   justify-content: center;
+}
+.grupo img{
+    margin-left: 350px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(180, 96, 0, 0);
+
+}
+.txt{
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(180, 96, 0, 0.596);;
+}
+.txt2{
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(180, 96, 0, 0.596);;
+}
+
+
+.hellyson img{
+    width: 120px;
+    padding: 2px;
+    border: 2px solid green;
+    border-radius: 250px;
+    box-shadow: 0 0 25px;
+    color: green;
+}
+.hellyson {
+    display: flex;
+}
+.hellyson ul li{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.hellyson a{
+   color: rgb(6, 240, 6);
+}
+.devs h2{
+    margin: 20px;
+}
+
+
+
+.lucca img{
+    width: 120px;
+    padding: 2px;
+    border: 2px solid green;
+    border-radius: 250px;
+    box-shadow: 0 0 25px;
+    color: green;
+}
+.lucca {
+    display: flex;
+}
+.lucca ul li{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.lucca a{
+    color: rgb(6, 240, 6);
+}
+
+
+
+.lucas img{
+    width: 120px;
+    padding: 2px;
+    border: 2px solid green;
+    border-radius: 250px;
+    box-shadow: 0 0 25px;
+    color: green;
+}
+.lucas {
+    display: flex;
+  
+}
+.lucas ul li{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.lucas a{
+    color: rgb(6, 240, 6);
+}
+
+
+
+.pedro img{
+    width: 120px;
+    padding: 2px;
+    border: 2px solid green;
+    border-radius: 250px;
+    box-shadow: 0 0 25px;
+    color: green;
+}
+.pedro {
+    display: flex;
+}
+.pedro ul li{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.pedro a{
+    color: rgb(6, 240, 6);
+}
