@@ -9,6 +9,7 @@ body{
     background-color: rgb(24, 24, 24);
     color: white;
     font-family: "Playfair Display", serif;
+    background-image: url('images/sobrenos-wallpaper.jpg');
 } 
 
 .container{
@@ -22,21 +23,21 @@ body{
 
 .nome img{
     margin-right: 160px;
-    width: 200px;
+    width: 150px;
     border-radius: 20px;
-    background: rgba(138, 55, 0, 0.658);
+    background: rgba(41, 41, 41, 0.658);
 }
 .menu{
     margin-left: 500px;
-    padding: 10px;
+    padding:10px;
     border-radius: 20px;
-    background: rgba(138, 55, 0, 0.658);
+    background: rgba(41, 41, 41, 0.658);
 }
 .menu nav a{
     text-decoration: none;
-    color: rgb(180, 81, 0);
+    color: rgb(179, 88, 14);
     position: relative;
-    margin: 6px
+    margin: 6px;
 }
 .menu nav a::after{
     content: " ";
@@ -61,21 +62,15 @@ body{
 }
 .grupo img{
     margin-left: 350px;
+    margin-top: 20px;
     width: 50%;
-    padding: 10px;
+    padding: 0px;
+    border: 2px solid green;
+    color: green;
+    box-shadow: 0 0 30px;
     border-radius: 25px;
     background-color: rgba(180, 96, 0, 0);
 
-}
-.txt{
-    text-align: center;
-    margin: 20px;
-    background-color: rgba(180, 96, 0, 0.596);;
-}
-.txt2{
-    text-align: center;
-    margin: 20px;
-    background-color: rgba(180, 96, 0, 0.596);;
 }
 
 
@@ -99,6 +94,7 @@ body{
 }
 .devs h2{
     margin: 20px;
+    border-bottom: 4px solid rgba(75, 73, 73, 0.445);
 }
 
 
